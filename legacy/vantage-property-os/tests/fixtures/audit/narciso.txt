@@ -1,0 +1,419 @@
+18/08/2026 Departamentos
+Piso Unidad Tipología M2 Propios Orientación Precio Estado Entrega 30% 30 Cuotas
+1 101 Mono 27,75 Contrafrente - Vendido - -
+1 102 Mono 27,75 Contrafrente - Vendido - -
+1 103 Mono 27,75 Contrafrente - Vendido - -
+1 104 Mono 27,75 Contrafrente - Vendido - -
+1 105 Mono 27,75 Contrafrente 54.600 Reservado 16.400 1.273
+1 106 Mono 27,75 Contrafrente - Vendido - -
+1 107 Mono 27,75 Contrafrente - Vendido - -
+1 108 1D AA 46,40 Frente SG 84.500 Libre 25.400 1.970
+1 109 1D AA 46,40 Frente SG - Vendido - -
+1 110 1D AA 46,40 Frente SG - Vendido - -
+1 111 1D AA 46,40 Frente SG 84.500 Reservado 25.400 1.970
+1 112 1D AA 46,40 Frente SG 84.500 Reservado 25.400 1.970
+1 113 1D AB 47,20 Frente SG 85.900 Libre 25.800 2.003
+1 114 2D A 66,40 Esquina 122.100 Libre 36.600 2.850
+1 115 2D B 73,50 Frente DG 133.800 Libre 40.100 3.123
+1 116 2D B 73,50 Frente DG 133.800 Libre 40.100 3.123
+1 117 1D B 49,75 Contrafrente 89.700 Libre 26.900 2.093
+1 118 1D B 49,75 Contrafrente 89.700 Libre 26.900 2.093
+2 201 Mono 27,75 Contrafrente 55.100 Libre 16.500 1.287
+2 202 Mono 27,75 Contrafrente - Vendido - -
+2 203 Mono 27,75 Contrafrente 50.500 Reservado 15.200 1.177
+2 204 Mono 27,75 Contrafrente - Vendido - -
+2 205 Mono 27,75 Contrafrente - Vendido - -
+2 206 Mono 27,75 Contrafrente - Vendido - -
+2 207 Mono 27,75 Contrafrente 50.500 Reservado 15.200 1.177
+2 208 1D AA 46,40 Frente SG - Vendido - -
+2 209 1D AA 46,40 Frente SG - Vendido - -
+2 210 1D AA 46,40 Frente SG - Vendido - -
+2 211 1D AA 46,40 Frente SG - Vendido - -
+2 212 1D AA 46,40 Frente SG 85.300 Reservado 25.600 1.990
+2 213 1D AB 47,20 Frente SG 86.800 Libre 26.000 2.027
+2 214 2D A 66,40 Esquina 123.300 Libre 37.000 2.877
+2 215 2D B 73,50 Frente DG 135.100 Libre 40.500 3.15318/08/2026 Departamentos
+Piso Unidad Tipología M2 Propios Orientación Precio Estado Entrega 30% 30 Cuotas
+2 216 2D B 73,50 Frente DG 135.100 Libre 40.500 3.153
+2 217 1D B 49,75 Contrafrente 90.600 Libre 27.200 2.113
+2 218 1D B 49,75 Contrafrente 90.600 Libre 27.200 2.113
+3 301 Mono 27,75 Contrafrente - Vendido - -
+3 302 Mono 27,75 Contrafrente - Vendido - -
+3 303 Mono 27,75 Contrafrente 51.000 Reservado 15.300 1.190
+3 304 Mono 27,75 Contrafrente - Vendido - -
+3 305 Mono 27,75 Contrafrente - Vendido - -
+3 306 Mono 27,75 Contrafrente 51.000 Reservado 15.300 1.190
+3 307 Mono 27,75 Contrafrente 51.000 Reservado 15.300 1.190
+3 308 1D AA 46,40 Frente SG 86.200 Libre 25.900 2.010
+3 309 1D AA 46,40 Frente SG - Vendido - -
+3 310 1D AA 46,40 Frente SG - Vendido - -
+3 311 1D AA 46,40 Frente SG 86.200 Reservado 25.900 2.010
+3 312 1D AA 46,40 Frente SG - Vendido - -
+3 313 1D AB 47,20 Frente SG 87.700 Libre 26.300 2.047
+3 314 3D Duplex 128,80 Esquina 241.600 Libre 72.500 5.637
+3 315 2D B 73,50 Frente DG 136.500 Libre 41.000 3.183
+3 316 2D B 73,50 Frente DG 136.500 Libre 41.000 3.183
+3 317 1D B 49,75 Contrafrente 91.500 Libre 27.500 2.133
+3 318 1D B 49,75 Contrafrente - Vendido - -
+4 401 Mono 27,75 Contrafrente - Vendido - -
+4 402 Mono 27,75 Contrafrente 55.700 Libre 16.700 1.300
+4 403 Mono 27,75 Contrafrente 55.700 Libre 16.700 1.300
+4 404 Mono 27,75 Contrafrente - Vendido - -
+4 405 Mono 27,75 Contrafrente - Vendido - -
+4 406 Mono 27,75 Contrafrente - Vendido - -
+4 407 Mono 27,75 Contrafrente - Vendido - -
+4 408 1D AA 46,40 Frente SG - Vendido - -
+4 409 1D AA 46,40 Frente SG 87.000 Reservado 26.100 2.030
+4 410 1D AA 46,40 Frente SG 87.000 Libre 26.100 2.030
+4 411 1D AA 46,40 Frente SG - Vendido - -
+4 412 1D AA 46,40 Frente SG 87.000 Reservado 26.100 2.03018/08/2026 Departamentos
+Piso Unidad Tipología M2 Propios Orientación Precio Estado Entrega 30% 30 Cuotas
+4 413 1D AB 47,20 Frente SG - Vendido - -
+4 414 2D B 73,50 Frente DG 137.900 Libre 41.400 3.217
+4 415 2D B 73,50 Frente DG 137.900 Libre 41.400 3.217
+4 416 1D B 49,75 Contrafrente 92.400 Libre 27.700 2.157
+4 417 1D B 49,75 Contrafrente 92.400 Libre 27.700 2.157
+5 501 Mono 27,75 Contrafrente 56.700 Libre 17.000 1.323
+5 502 Mono 27,75 Contrafrente - Vendido - -
+5 503 Mono 27,75 Contrafrente 52.100 Reservado 15.600 1.217
+5 504 Mono 27,75 Contrafrente - Vendido - -
+5 505 Mono 27,75 Contrafrente - Vendido - -
+5 506 Mono 27,75 Contrafrente - Vendido - -
+5 507 Mono 27,75 Contrafrente 52.100 Reservado 15.600 1.217
+5 508 1D AA 46,40 Frente SG 87.900 Reservado 26.400 2.050
+5 509 1D AA 46,40 Frente SG - Vendido - -
+5 510 1D AA 46,40 Frente SG 87.900 Reservado 26.400 2.050
+5 511 1D AA 46,40 Frente SG 87.900 Reservado 26.400 2.050
+5 512 1D AA 46,40 Frente SG 87.900 Reservado 26.400 2.050
+5 513 1D AB 47,20 Frente SG - Vendido - -
+5 514 3D Duplex 128,80 Esquina 246.400 Libre 73.900 5.750
+5 515 2D B 73,50 Frente DG 139.200 Libre 41.800 3.247
+5 516 2D B 73,50 Frente DG 139.200 Libre 41.800 3.247
+5 517 1D B 49,75 Contrafrente - Vendido - -
+5 518 1D B 49,75 Contrafrente 93.300 Libre 28.000 2.177
+6 601 Mono 27,75 Contrafrente 52.600 Reservado 15.800 1.227
+6 602 Mono 27,75 Contrafrente - Vendido - -
+6 603 Mono 27,75 Contrafrente - Vendido - -
+6 604 Mono 27,75 Contrafrente - Vendido - -
+6 605 Mono 27,75 Contrafrente - Vendido - -
+6 606 Mono 27,75 Contrafrente - Vendido - -
+6 607 Mono 27,75 Contrafrente - Vendido - -
+6 608 1D AA 46,40 Frente SG - Vendido - -
+6 609 1D AA 46,40 Frente SG 88.800 Reservado 26.600 2.073
+6 610 1D AA 46,40 Frente SG - Vendido - -18/08/2026 Departamentos
+Piso Unidad Tipología M2 Propios Orientación Precio Estado Entrega 30% 30 Cuotas
+6 611 1D AA 46,40 Frente SG 88.800 Reservado 26.600 2.073
+6 612 1D AA 46,40 Frente SG - Vendido - -
+6 613 1D AB 47,20 Frente SG - Vendido - -
+6 614 2D B 73,50 Frente DG 140.600 Libre 42.200 3.280
+6 615 2D B 73,50 Frente DG 140.600 Libre 42.200 3.280
+6 616 1D B 49,75 Contrafrente 94.200 Libre 28.300 2.197
+6 617 1D B 49,75 Contrafrente 94.200 Libre 28.300 2.197
+7 701 Mono 27,75 Contrafrente - Vendido - -
+7 702 Mono 27,75 Contrafrente - Vendido - -
+7 703 Mono 27,75 Contrafrente 57.200 Libre 17.200 1.333
+7 704 Mono 27,75 Contrafrente 57.200 Libre 17.200 1.333
+7 705 Mono 27,75 Contrafrente - Vendido - -
+7 706 Mono 27,75 Contrafrente 53.100 Reservado 15.900 1.240
+7 707 Mono 27,75 Contrafrente - Vendido - -
+7 708 1D AA 46,40 Frente SG - Vendido - -
+7 709 1D AA 46,40 Frente SG - Vendido - -
+7 710 1D AA 46,40 Frente SG - Vendido - -
+7 711 1D AA 46,40 Frente SG 89.700 Reservado 26.900 2.093
+7 712 1D AA 46,40 Frente SG - Vendido - -
+7 713 1D AB 47,20 Frente SG - Vendido - -
+7 714 2D A 66,40 Esquina - Vendido - -
+7 715 2D B 73,50 Frente DG 142.000 Libre 42.600 3.313
+7 716 2D B 73,50 Frente DG 142.000 Libre 42.600 3.313
+7 717 1D B 49,75 Contrafrente 95.200 Libre 28.600 2.220
+7 718 1D B 49,75 Contrafrente 95.200 Libre 28.600 2.220
+8 801 Mono 27,75 Contrafrente - Vendido - -
+8 802 Mono 27,75 Contrafrente - Vendido - -
+8 803 Mono 27,75 Contrafrente 57.900 Libre 17.400 1.350
+8 804 Mono 27,75 Contrafrente - Vendido - -
+8 805 Mono 27,75 Contrafrente - Vendido - -
+8 806 Mono 27,75 Contrafrente 53.600 Reservado 16.100 1.250
+8 807 Mono 27,75 Contrafrente - Vendido - -
+8 808 1D AA 46,40 Frente SG - Vendido - -18/08/2026 Departamentos
+Piso Unidad Tipología M2 Propios Orientación Precio Estado Entrega 30% 30 Cuotas
+8 809 1D AA 46,40 Frente SG 90.600 Reservado 27.200 2.113
+8 810 1D AA 46,40 Frente SG 90.600 Reservado 27.200 2.113
+8 811 1D AA 46,40 Frente SG 90.600 Reservado 27.200 2.113
+8 812 1D AA 46,40 Frente SG 90.600 Reservado 27.200 2.113
+8 813 1D AB 47,20 Frente SG - Vendido - -
+8 814 2D A 66,40 Esquina 130.900 Libre 39.300 3.053
+8 815 2D B 73,50 Frente DG 143.500 Libre 43.100 3.347
+8 816 2D B 73,50 Frente DG 143.500 Libre 43.100 3.347
+8 817 1D B 49,75 Contrafrente 96.100 Libre 28.800 2.243
+8 818 1D B 49,75 Contrafrente 96.100 Libre 28.800 2.243
+9 901 Mono 27,75 Contrafrente - Vendido - -
+9 902 Mono 27,75 Contrafrente - Vendido - -
+9 903 Mono 27,75 Contrafrente - Vendido - -
+9 904 Mono 27,75 Contrafrente - Vendido - -
+9 905 Mono 27,75 Contrafrente - Vendido - -
+9 906 Mono 27,75 Contrafrente - Vendido - -
+9 907 Mono 27,75 Contrafrente - Vendido - -
+9 908 1D AA 46,40 Frente SG - Vendido - -
+9 909 1D AA 46,40 Frente SG - Vendido - -
+9 910 1D AA 46,40 Frente SG 91.500 Reservado 27.500 2.133
+9 911 1D AA 46,40 Frente SG - Vendido - -
+9 912 1D AA 46,40 Frente SG - Vendido - -
+9 913 1D AB 47,20 Frente SG 93.000 Libre 27.900 2.170
+9 914 2D A 66,40 Esquina - Vendido - -
+9 915 2D B 73,50 Frente DG 144.900 Libre 43.500 3.380
+9 916 2D B 73,50 Frente DG 144.900 Reservado 43.500 3.380
+9 917 1D B 49,75 Contrafrente 97.100 Libre 29.100 2.267
+9 918 1D B 49,75 Contrafrente 97.100 Libre 29.100 2.267
+10 1001 Mono 27,75 Contrafrente - Vendido - -
+10 1002 Mono 27,75 Contrafrente - Vendido - -
+10 1003 Mono 27,75 Contrafrente - Vendido - -
+10 1004 Mono 27,75 Contrafrente - Vendido - -
+10 1005 Mono 27,75 Contrafrente - Vendido - -18/08/2026 Departamentos
+Piso Unidad Tipología M2 Propios Orientación Precio Estado Entrega 30% 30 Cuotas
+10 1006 Mono 27,75 Contrafrente - Vendido - -
+10 1007 Mono 27,75 Contrafrente - Vendido - -
+10 1008 1D AA 46,40 Frente SG 92.400 Reservado 27.700 2.157
+10 1009 1D AA 46,40 Frente SG - Vendido - -
+10 1010 1D AA 46,40 Frente SG - Vendido - -
+10 1011 1D AA 46,40 Frente SG - Vendido - -
+10 1012 1D AA 46,40 Frente SG 92.400 Libre 27.700 2.157
+10 1013 1D AB 47,20 Frente SG 94.000 Reservado 28.200 2.193
+10 1014 2D A 66,40 Esquina - Vendido - -
+10 1015 2D B 73,50 Frente DG 146.300 Libre 43.900 3.413
+10 1016 2D B 73,50 Frente DG - Vendido - -
+10 1017 1D B 49,75 Contrafrente 98.100 Reservado 29.400 2.290
+10 1018 1D B 49,75 Contrafrente - Vendido - -
+11 1101 Mono 27,75 Contrafrente - Vendido - -
+11 1102 Mono 27,75 Contrafrente 58.700 Libre 17.600 1.370
+11 1103 Mono 27,75 Contrafrente - Vendido - -
+11 1104 Mono 27,75 Contrafrente - Vendido - -
+11 1105 Mono 27,75 Contrafrente - Vendido - -
+11 1106 Mono 27,75 Contrafrente - Vendido - -
+11 1107 Mono 27,75 Contrafrente - Vendido - -
+11 1108 1D AA 46,40 Frente SG - Vendido - -
+11 1109 1D AA 46,40 Frente SG - Vendido - -
+11 1110 1D AA 46,40 Frente SG 93.300 Libre 28.000 2.177
+11 1111 1D AA 46,40 Frente SG - Vendido - -
+11 1112 1D AA 46,40 Frente SG - Vendido - -
+11 1113 1D AB 47,20 Frente SG 94.900 Libre 28.500 2.213
+11 1114 2D A 66,40 Esquina 134.900 Libre 40.500 3.147
+11 1115 2D B 73,50 Frente DG 147.800 Libre 44.300 3.450
+11 1116 2D B 73,50 Frente DG 147.800 Libre 44.300 3.450
+11 1117 1D B 49,75 Contrafrente 99.100 Libre 29.700 2.313
+11 1118 1D B 49,75 Contrafrente 99.100 Libre 29.700 2.313
+12 1201 Mono 27,75 Contrafrente 55.800 Reservado 16.700 1.303
+12 1202 Mono 27,75 Contrafrente - Vendido - -18/08/2026 Departamentos
+Piso Unidad Tipología M2 Propios Orientación Precio Estado Entrega 30% 30 Cuotas
+12 1203 Mono 27,75 Contrafrente - Vendido - -
+12 1204 Mono 27,75 Contrafrente 55.800 Reservado 16.700 1.303
+12 1205 Mono 27,75 Contrafrente - Vendido - -
+12 1206 Mono 27,75 Contrafrente 55.800 Reservado 16.700 1.303
+12 1207 Mono 27,75 Contrafrente - Vendido - -
+12 1208 1D AA 46,40 Frente SG - Vendido - -
+12 1209 1D AA 46,40 Frente SG - Vendido - -
+12 1210 1D AA 46,40 Frente SG 94.200 Reservado 28.300 2.197
+12 1211 1D AA 46,40 Frente SG 94.200 Reservado 28.300 2.197
+12 1212 1D AA 46,40 Frente SG 94.200 Libre 28.300 2.197
+12 1213 1D AB 47,20 Frente SG 95.900 Libre 28.800 2.237
+12 1214 2D A 66,40 Esquina - Vendido - -
+12 1215 2D B 73,50 Frente DG 149.300 Libre 44.800 3.483
+12 1216 2D B 73,50 Frente DG 149.300 Libre 44.800 3.483
+12 1217 1D B 49,75 Contrafrente - Vendido - -
+12 1218 1D B 49,75 Contrafrente 100.000 Libre 30.000 2.333
+13 1301 Mono 27,75 Contrafrente - Vendido - -
+13 1302 Mono 27,75 Contrafrente - Vendido - -
+13 1303 Mono 27,75 Contrafrente - Vendido - -
+13 1304 Mono 27,75 Contrafrente - Vendido - -
+13 1305 Mono 27,75 Contrafrente - Vendido - -
+13 1306 Mono 27,75 Contrafrente - Vendido - -
+13 1307 Mono 27,75 Contrafrente - Vendido - -
+13 1308 1D AA 46,40 Frente SG 95.200 Libre 28.600 2.220
+13 1309 1D AA 46,40 Frente SG 95.200 Libre 28.600 2.220
+13 1310 1D AA 46,40 Frente SG 95.200 Libre 28.600 2.220
+13 1311 1D AA 46,40 Frente SG 95.200 Libre 28.600 2.220
+13 1312 1D AA 46,40 Frente SG 95.200 Libre 28.600 2.220
+13 1313 1D AB 47,20 Frente SG - Vendido - -
+13 1314 3D A 109,70 Esquina 227.300 Libre 68.200 5.303
+13 1315 3D B 101,30 Frente DG 207.800 Libre 62.300 4.850
+13 1316 1D B 49,75 Contrafrente 101.000 Libre 30.300 2.357
+13 1317 1D B 49,75 Contrafrente 101.000 Libre 30.300 2.35718/08/2026 Departamentos
+Piso Unidad Tipología M2 Propios Orientación Precio Estado Entrega 30% 30 Cuotas
+14 1401 Mono 27,75 Contrafrente - Vendido - -
+14 1402 Mono 27,75 Contrafrente - Vendido - -
+14 1403 Mono 27,75 Contrafrente - Vendido - -
+14 1404 Mono 27,75 Contrafrente - Vendido - -
+14 1405 Mono 27,75 Contrafrente - Vendido - -
+14 1406 Mono 27,75 Contrafrente - Vendido - -
+14 1407 Mono 27,75 Contrafrente 60.000 Libre 18.000 1.400
+14 1408 1D AA 46,40 Frente SG 96.100 Libre 28.800 2.243
+14 1409 1D AA 46,40 Frente SG 96.100 Libre 28.800 2.243
+14 1410 1D AA 46,40 Frente SG 96.100 Libre 28.800 2.243
+14 1411 1D AA 46,40 Frente SG 96.100 Libre 28.800 2.243
+14 1412 1D AA 46,40 Frente SG 96.100 Libre 28.800 2.243
+14 1413 1D AB 47,20 Frente SG - Vendido - -
+14 1414 3D A 109,70 Esquina 229.600 Libre 68.900 5.357
+14 1415 3D B 101,30 Frente DG 209.900 Libre 63.000 4.897
+14 1416 1D B 49,75 Contrafrente 102.100 Libre 30.600 2.383
+14 1417 1D B 49,75 Contrafrente 102.100 Libre 30.600 2.38318/08/2026 Cocheras
+Piso Unidad
+Cantidad de 
+Bauleras
+Precio Estado Entrega 30% 30 Cuotas
+PB 1 2 20.000 Libre 6.000 467
+PB 2 0 16.000 Vendido 4.800 373
+PB 3 0 16.000 Libre 4.800 373
+PB 4 0 16.000 Libre 4.800 373
+PB 5 0 16.000 Vendido 4.800 373
+PB 6 0 16.000 Libre 4.800 373
+PB 7 0 16.000 Libre 4.800 373
+PB 8 0 16.000 Libre 4.800 373
+PB 9 0 16.000 Libre 4.800 373
+PB 10 0 16.000 Libre 4.800 373
+PB 11 0 16.000 Vendido 4.800 373
+PB 12 1 18.000 Libre 5.400 420
+PB 13 1 18.000 Libre 5.400 420
+PB 14 1 18.000 Libre 5.400 420
+PB 15 3 21.000 Libre 6.300 490
+PB 16 0 16.000 Libre 4.800 373
+PB 17 0 20.000 Libre 6.000 467
+PB 18 0 16.000 Libre 4.800 373
+PB 19 0 16.000 Libre 4.800 373
+PB 20 0 16.000 Libre 4.800 373
+PB 21 0 16.000 Libre 4.800 373
+PB 22 0 16.000 Libre 4.800 373
+PB 23 0 16.000 Libre 4.800 373
+PB 24 0 16.000 Libre 4.800 373
+PB 25 0 16.000 Libre 4.800 373
+PB 26 0 16.000 Libre 4.800 373
+PB 27 0 16.000 Libre 4.800 373
+PB 28 0 16.000 Vendido 4.800 373
+PB 29 0 16.000 Libre 4.800 373
+PB 30 0 16.000 Libre 4.800 373
+PB 31 0 16.000 Libre 4.800 373
+PB 32 0 16.000 Vendido 4.800 37318/08/2026 Cocheras
+Piso Unidad
+Cantidad de 
+Bauleras
+Precio Estado Entrega 30% 30 Cuotas
+PB 33 0 16.000 Libre 4.800 373
+PB 34 0 16.000 Libre 4.800 373
+PB 35 0 16.000 Vendido 4.800 373
+PB 36 0 16.000 Libre 4.800 373
+SS1 1 2 20.000 Libre 6.000 467
+SS1 2 2 20.000 Libre 6.000 467
+SS1 3 1 18.000 Libre 5.400 420
+SS1 4 1 18.000 Libre 5.400 420
+SS1 5 0 15.500 Libre 4.700 360
+SS1 6 1 18.000 Libre 5.400 420
+SS1 7 1 18.000 Libre 5.400 420
+SS1 8 1 18.000 Libre 5.400 420
+SS1 9 1 18.000 Libre 5.400 420
+SS1 10 0 15.500 Libre 4.700 360
+SS1 11 0 15.500 Libre 4.700 360
+SS1 12 0 15.500 Vendido - -
+SS1 13 0 15.500 Libre 4.700 360
+SS1 14 0 15.500 Libre 4.700 360
+SS1 15 0 15.500 Libre 4.700 360
+SS1 16 0 15.500 Vendido 4.700 360
+SS1 17 0 15.500 Libre 4.700 360
+SS1 18 0 15.500 Libre 4.700 360
+SS1 19 1 18.000 Libre 5.400 420
+SS1 20 1 18.000 Libre 5.400 420
+SS1 21 0 20.000 Libre 6.000 467
+SS1 22 0 15.500 Libre 4.700 360
+SS1 23 0 15.500 Libre 4.700 360
+SS1 24 0 15.500 Libre 4.700 360
+SS1 25 0 15.500 Libre 4.700 360
+SS1 26 2 20.000 Libre 6.000 467
+SS1 27 1 18.000 Vendido - -
+SS1 28 1 18.000 Libre 5.400 42018/08/2026 Cocheras
+Piso Unidad
+Cantidad de 
+Bauleras
+Precio Estado Entrega 30% 30 Cuotas
+SS1 29 0 15.500 Libre 4.700 360
+SS1 30 1 18.000 Libre 5.400 420
+SS1 31 1 18.000 Libre 5.400 420
+SS1 32 0 15.500 Libre 4.700 360
+SS1 33 2 20.000 Libre 6.000 467
+SS1 34 1 18.000 Libre 5.400 420
+SS1 35 1 18.000 Libre 5.400 420
+SS1 36 0 15.500 Libre 4.700 360
+SS1 37 1 18.000 Vendido 5.400 420
+SS1 38 1 18.000 Libre 5.400 420
+SS1 39 1 18.000 Libre 5.400 420
+SS1 40 1 18.000 Libre 5.400 420
+SS1 41 2 20.000 Libre 6.000 467
+SS1 42 0 15.500 Libre 4.700 360
+SS1 43 0 15.500 Libre 4.700 360
+SS1 44 0 15.500 Libre 4.700 360
+SS1 45 0 15.500 Libre 4.700 360
+SS1 46 0 15.500 Libre 4.700 360
+SS1 47 0 15.500 Libre 4.700 360
+SS1 48 0 15.500 Libre 4.700 360
+SS1 49 0 15.500 Libre 4.700 360
+SS1 50 0 15.500 Libre 4.700 360
+SS1 51 0 15.500 Libre 4.700 360
+SS2 1 0 15.000 Libre 4.500 350
+SS2 2 0 15.000 Libre 4.500 350
+SS2 3 0 15.000 Libre 4.500 350
+SS2 4 1 18.000 Libre 5.400 420
+SS2 5 1 18.000 Libre 5.400 420
+SS2 6 0 15.000 Libre 4.500 350
+SS2 7 1 18.000 Libre 5.400 420
+SS2 8 1 18.000 Libre 5.400 420
+SS2 9 1 18.000 Libre 5.400 42018/08/2026 Cocheras
+Piso Unidad
+Cantidad de 
+Bauleras
+Precio Estado Entrega 30% 30 Cuotas
+SS2 10 1 18.000 Libre 5.400 420
+SS2 11 0 15.000 Libre 4.500 350
+SS2 12 0 15.000 Libre 4.500 350
+SS2 13 0 15.000 Libre 4.500 350
+SS2 14 0 15.000 Libre 4.500 350
+SS2 15 0 15.000 Libre 4.500 350
+SS2 16 0 15.000 Libre 4.500 350
+SS2 17 0 15.000 Libre 4.500 350
+SS2 18 0 15.000 Vendido 4.500 350
+SS2 19 0 15.000 Vendido 4.500 350
+SS2 20 0 15.000 Libre 4.500 350
+SS2 21 0 15.000 Libre 4.500 350
+SS2 21E 0 20.000 Libre 6.000 467
+SS2 22 0 15.000 Libre 4.500 350
+SS2 23 1 18.000 Libre 5.400 420
+SS2 24 1 18.000 Libre 5.400 420
+SS2 25 0 15.000 Libre 4.500 350
+SS2 26 0 15.000 Libre 4.500 350
+SS2 27 0 15.000 Libre 4.500 350
+SS2 28 0 15.000 Libre 4.500 350
+SS2 29 0 15.000 Libre 4.500 350
+SS2 30 0 15.000 Libre 4.500 350
+SS2 31 2 20.000 Libre 6.000 467
+SS2 32 1 18.000 Libre 5.400 420
+SS2 33 1 18.000 Libre 5.400 420
+SS2 34 0 15.000 Libre 4.500 350
+SS2 35 1 18.000 Libre 5.400 420
+SS2 36 1 18.000 Libre 5.400 420
+SS2 37 0 15.000 Libre 4.500 350
+SS2 38 2 20.000 Libre 6.000 467
+SS2 39 1 18.000 Libre 5.400 420
+SS2 40 1 18.000 Libre 5.400 42018/08/2026 Cocheras
+Piso Unidad
+Cantidad de 
+Bauleras
+Precio Estado Entrega 30% 30 Cuotas
+SS2 41 0 15.000 Libre 4.500 350
+SS2 42 1 18.000 Libre 5.400 420
+SS2 43 1 18.000 Libre 5.400 420
+SS2 44 0 15.000 Libre 4.500 350
+SS2 45 1 18.000 Libre 5.400 420
+SS2 46 2 20.000 Libre 6.000 467
+SS2 47 0 15.000 Libre 4.500 350
+SS2 48 0 15.000 Libre 4.500 350
+SS2 49 0 15.000 Libre 4.500 350
+SS2 50 0 15.000 Libre 4.500 350
+SS2 51 0 15.000 Libre 4.500 350
+SS2 52 0 15.000 Libre 4.500 350
+SS2 53 0 15.000 Vendido 4.500 350
+SS2 54 0 15.000 Vendido 4.500 350

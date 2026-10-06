@@ -1,0 +1,32 @@
+VANTAGE PROPERTY OS — COPIA EDITABLE
+Fecha de respaldo: 22 de septiembre de 2026
+
+CONTENIDO
+- Código fuente completo del sistema.
+- Imágenes y brochures almacenados localmente.
+- Migraciones y estructura de base de datos.
+- Pruebas automáticas.
+- Configuración de compilación y publicación.
+
+REQUISITOS
+- Node.js 22 o superior.
+- npm.
+
+INSTALACIÓN LOCAL
+1. Descomprimir este archivo.
+2. Abrir una terminal dentro de la carpeta Vantage_Property_OS.
+3. Ejecutar: npm ci
+4. Ejecutar: npm run dev
+5. Abrir la dirección local que indique la terminal.
+
+VERIFICACIÓN
+- Pruebas: npm test
+- Compilación: npm run build
+
+IMPORTANTE
+Esta copia contiene el sistema editable y sus archivos versionados. La base de
+datos operativa y el almacenamiento vinculados a la versión publicada son
+servicios externos y no están incluidos como datos vivos dentro del ZIP.
+
+Sitio publicado:
+https://vantage-property-os.maximilianoschussmul.chatgpt.site

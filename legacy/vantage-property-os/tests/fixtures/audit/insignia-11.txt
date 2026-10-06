@@ -1,0 +1,69 @@
+# Edificio Piso Unidad Vista Dormitorios Cochera M2 Cocheras M2 deptos M2 Patio M2 Comunes Precio POZO
+1 TORRE A 8 A82 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 64,341
+2 TORRE A 8 A84 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 64,341
+3 TORRE A 8 A86 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 64,341
+4 TORRE A 8 A88 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 64,341
+5 TORRE A 7 A71 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 Vendido
+6 TORRE A 7 A72 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+7 TORRE A 7 A73 Frente 2++ dormitorios 1 12.5 52.2 - 12.9 Vendido
+8 TORRE A 7 A74 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+9 TORRE A 7 A75 Frente 2+++ dormitorios 1 12.5 68.8 - 17.1 103,117
+10 TORRE A 7 A76 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 63,785
+11 TORRE A 7 A78 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 63,785
+12 TORRE A 6 A61 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 Vendido
+13 TORRE A 6 A62 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+14 TORRE A 6 A63 Frente 2++ dormitorios 1 12.5 52.2 - 12.9 Vendido
+15 TORRE A 6 A64 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 63,228
+16 TORRE A 6 A65 Frente 2++ dormitorios vest 1 12.5 56.1 - 12.9 Vendido
+17 TORRE A 6 A66 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+18 TORRE A 6 A67 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 Vendido
+19 TORRE A 6 A68 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+20 TORRE A 5 A51 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 72,194
+21 TORRE A 5 A52 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+22 TORRE A 5 A53 Frente 1++ dormitorio 1 12.5 39.2 - 9.7 Vendido
+23 TORRE A 5 A54 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 62,672
+24 TORRE A 5 A55 Frente 1 dormitorio 1 12.5 31.7 - 7.9 Vendido
+25 TORRE A 5 A56 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 62,672
+26 TORRE A 5 A57 Frente 1+ dormitorio 1 12.5 36.8 - 9.1 Vendido
+27 TORRE A 5 A58 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+28 TORRE A 5 A59 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 Vendido
+29 TORRE A 4 A41 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 71,564
+30 TORRE A 4 A42 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 62,115
+31 TORRE A 4 A43 Frente 1++ dormitorio 1 12.5 39.2 - 9.7 Vendido
+32 TORRE A 4 A44 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 62,115
+33 TORRE A 4 A45 Frente 1 dormitorio 1 12.5 31.7 - 7.9 Vendido
+34 TORRE A 4 A46 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 62,115
+35 TORRE A 4 A47 Frente 1+ dormitorio 1 12.5 36.8 - 9.1 Vendido
+36 TORRE A 4 A48 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 62,115
+37 TORRE A 4 A49 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 Vendido
+38 TORRE A 3 A31 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 Vendido
+39 TORRE A 3 A32 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 61,559
+40 TORRE A 3 A33 Frente 1++ dormitorio 1 12.5 39.2 - 9.7 Vendido
+41 TORRE A 3 A34 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 61,559
+42 TORRE A 3 A35 Frente 1 dormitorio 1 12.5 31.7 - 7.9 Vendido
+43 TORRE A 3 A36 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+44 TORRE A 3 A37 Frente 1+ dormitorio 1 12.5 36.8 - 9.1 Vendido
+45 TORRE A 3 A38 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 61,559
+46 TORRE A 3 A39 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 Vendido
+47 TORRE A 2 A21 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 70,304
+48 TORRE A 2 A22 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 61,002
+49 TORRE A 2 A23 Frente 1++ dormitorio 1 12.5 39.2 - 9.7 Vendido
+50 TORRE A 2 A24 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 61,002
+51 TORRE A 2 A25 Frente 1 dormitorio 1 12.5 31.7 - 7.9 Vendido
+52 TORRE A 2 A26 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 61,002
+53 TORRE A 2 A27 Frente 1+ dormitorio 1 12.5 36.8 - 9.1 Vendido
+54 TORRE A 2 A28 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+55 TORRE A 2 A29 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 70,304
+56 TORRE A 1 A 11 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 69,989
+57 TORRE A 1 A 12 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 Vendido
+58 TORRE A 1 A 13 Frente 1++ dormitorio 1 12.5 39.2 - 9.7 Vendido
+59 TORRE A 1 A 14 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 60,724
+60 TORRE A 1 A 15 Frente 1 dormitorio 1 12.5 31.7 - 7.9 Vendido
+61 TORRE A 1 A 16 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 60,724
+62 TORRE A 1 A 17 Frente 1+ dormitorio 1 12.5 36.8 - 9.1 Vendido
+63 TORRE A 1 A 18 Atrás 2 dormitorios 1 12.5 44.6 - 11.1 60,724
+64 TORRE A 1 A 19 Frente 2+ dormitorios 1 12.5 50.5 - 12.5 69,989
+65 TORRE A 0 A 01 Frente 2+ dormitorios 1 12.5 50.5 21.7 12.5 76,359
+66 TORRE A 0 A 02 Atrás 2 dormitorios 1 12.5 44.6 21.7 11.1 Vendido
+67 TORRE A 0 A 03 Frente 2++ dormitorios 1 12.5 52.2 25.6 12.9 79,870
+68 TORRE A 0 A 04 Atrás 2 dormitorios 1 12.5 44.6 21.7 11.1 68,169

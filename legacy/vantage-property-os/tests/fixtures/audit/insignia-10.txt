@@ -1,0 +1,107 @@
+Edificio Piso Unidad Vista Dormitorios Cochera M2 Cocheras M2 deptos M2 Comunes Precio POZO
+TORRE A 7 A71 Fuerza Aérea / Eje 3 dormitorios 2 25.0 118.9 41.1 Vendido
+TORRE A 7 A72 Fuerza Aérea / Eje 3 dormitorios 2 25.0 118.9 41.1 Vendido
+TORRE B 7 B71 Fuerza Aérea / Eje 3 dormitorios 2 25.0 118.9 41.1 Vendido
+TORRE B 7 B72 Fuerza Aérea / Eje 3 dormitorios 2 25.0 118.9 41.1 225,369
+TORRE A 6 A61 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 6 A62 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 6 A63 Fuerza Aérea 2 dormitorios ++ 2 25.0 55.0 19.0 Vendido
+TORRE A 6 A64 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE A 6 A65 Fuerza Aérea 2 dormitorios + 2 25.0 55.0 19.0 Vendido
+TORRE A 6 A66 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE A 6 A67 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 6 A68 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 6 B61 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 6 B62 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 84,498
+TORRE B 6 B63 Fuerza Aérea 2 dormitorios ++ 2 25.0 55.0 19.0 Vendido
+TORRE B 6 B64 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 87,305
+TORRE B 6 B65 Fuerza Aérea 2 dormitorios + 2 25.0 55.0 19.0 Vendido
+TORRE B 6 B66 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE B 6 B67 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 6 B68 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 84,498
+TORRE A 5 A 51 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 5 A 52 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 5 A 53 Fuerza Aérea 2 dormitorios ++ 2 25.0 55.0 19.0 Vendido
+TORRE A 5 A 54 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE A 5 A 55 Fuerza Aérea 2 dormitorios + 2 25.0 55.0 19.0 Vendido
+TORRE A 5 A 56 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE A 5 A 57 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 5 A 58 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 5 B51 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 5 B52 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 82,736
+TORRE B 5 B53 Fuerza Aérea 2 dormitorios ++ 2 25.0 55.0 19.0 Vendido
+TORRE B 5 B54 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 85,485
+TORRE B 5 B55 Fuerza Aérea 2 dormitorios + 2 25.0 55.0 19.0 Vendido
+TORRE B 5 B56 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 85,485
+TORRE B 5 B57 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 5 B58 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 4 A 41 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 4 A 42 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 4 A 43 Fuerza Aérea 2 dormitorios ++ 1 12.5 55.0 19.0 Vendido
+TORRE A 4 A 44 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 83,664
+TORRE A 4 A 45 Fuerza Aérea 2 dormitorios + 1 12.5 55.0 19.0 Vendido
+TORRE A 4 A 46 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 83,664
+TORRE A 4 A 47 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 4 A 48 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 4 B41 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 4 B42 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 4 B43 Fuerza Aérea 2 dormitorios ++ 1 12.5 55.0 19.0 Vendido
+TORRE B 4 B44 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE B 4 B45 Fuerza Aérea 2 dormitorios + 1 12.5 55.0 19.0 Vendido
+TORRE B 4 B46 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 83,664
+TORRE B 4 B47 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 4 B48 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 3 A31 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 3 A32 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 3 A33 Fuerza Aérea 1 dormitorio ++ 1 12.5 39.8 13.7 Vendido
+TORRE A 3 A34 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE A 3 A35 Fuerza Aérea 1 dormitorio 1 12.5 32.8 11.3 Vendido
+TORRE A 3 A36 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 82,451
+TORRE A 3 A37 Fuerza Aérea 1 dormitorio + 1 12.5 37.5 13.0 Vendido
+TORRE A 3 A38 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 3 A39 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 3 B31 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 3 B32 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 3 B33 Fuerza Aérea 1 dormitorio ++ 1 12.5 39.8 13.7 Vendido
+TORRE B 3 B34 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE B 3 B35 Fuerza Aérea 1 dormitorio 1 12.5 32.8 11.3 Vendido
+TORRE B 3 B36 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 82,451
+TORRE B 3 B37 Fuerza Aérea 1 dormitorio + 1 12.5 37.5 13.0 Vendido
+TORRE B 3 B38 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 3 B39 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 2 A21 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 2 A22 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 2 A23 Fuerza Aérea 1 dormitorio ++ 1 12.5 39.8 13.7 Vendido
+TORRE A 2 A24 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE A 2 A25 Fuerza Aérea 1 dormitorio 1 12.5 32.8 11.3 Vendido
+TORRE A 2 A26 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 81,844
+TORRE A 2 A27 Fuerza Aérea 1 dormitorio + 1 12.5 37.5 13.0 Vendido
+TORRE A 2 A28 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 2 A29 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 2 B21 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 2 B22 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 2 B23 Fuerza Aérea 1 dormitorio ++ 1 12.5 39.8 13.7 Vendido
+TORRE B 2 B24 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE B 2 B25 Fuerza Aérea 1 dormitorio 1 12.5 32.8 11.3 Vendido
+TORRE B 2 B26 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 81,844
+TORRE B 2 B27 Fuerza Aérea 1 dormitorio + 1 12.5 37.5 13.0 Vendido
+TORRE B 2 B28 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 2 B29 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 1 A 11 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE A 1 A 12 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 1 A 13 Fuerza Aérea 1 dormitorio ++ 1 12.5 39.8 13.7 Vendido
+TORRE A 1 A 14 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE A 1 A 15 Fuerza Aérea 1 dormitorio 1 12.5 32.8 11.3 Vendido
+TORRE A 1 A 16 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 Vendido
+TORRE A 1 A 17 Fuerza Aérea 1 dormitorio + 1 12.5 37.5 13.0 Vendido
+TORRE A 1 A 18 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE A 1 A 19 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 Vendido
+TORRE B 1 B11 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 89,883
+TORRE B 1 B12 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 1 B13 Fuerza Aérea 1 dormitorio ++ 1 12.5 39.8 13.7 Vendido
+TORRE B 1 B14 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 81,237
+TORRE B 1 B15 Fuerza Aérea 1 dormitorio 1 12.5 32.8 11.3 Vendido
+TORRE B 1 B16 Eje Corporativo 2 dormitorios 1 12.5 45.1 15.6 81,237
+TORRE B 1 B17 Fuerza Aérea 1 dormitorio + 1 12.5 37.5 13.0 Vendido
+TORRE B 1 B18 Eje Corporativo 2 dormitorios 1 12.5 43.7 15.1 Vendido
+TORRE B 1 B 19 Fuerza Aérea 2 dormitorios esquina 1 12.5 49.9 17.2 89,883

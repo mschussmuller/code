@@ -1,0 +1,44 @@
+NIVEL Torre DPTO. TIPO Vista total Estado Precio de lista 
+1 2 101 3 dor Frente 240.35 Asignado ₲ 3,060,000,000
+1 2 102 3 dor Patio Interno y frente 193.45 Disponible ₲ 3,094,000,000
+1 2 103 3 dor Patio Interno 131.91 Disponible ₲ 1,972,000,000
+1 2 104 2 dor Patio Interno 98.59 Disponible ₲ 1,577,600,000
+1 2 105 2 dor Lateral 158.75 Disponible ₲ 1,763,784,211
+1 2 106 2 dor Lateral 149.95 Disponible ₲ 1,587,700,000
+1 2 107 2 dor Lateral 137.75 Disponible ₲ 1,535,119,612
+2 2 201 3 dor Frente 165.77 Disponible ₲ 2,686,000,000
+2 2 202 3 dor Patio Interno y frente 193.45 Disponible ₲ 3,128,000,000
+2 2 203 3 dor Patio Interno 131.91 Disponible ₲ 2,065,000,000
+2 2 204 2 dor Patio Interno 98.59 Vendida
+2 2 205 2 dor Lateral 82.76 Disponible ₲ 1,122,000,000
+2 2 206 2 dor Lateral 95.14 Disponible ₲ 1,292,000,000
+2 2 207 2 dor Lateral 83.65 Vendida
+3 2 301 3 dor Frente 165.77 Vendida ₲ 2,686,000,000
+3 2 302 3 dor Patio Interno y frente 193.45 Vendida
+3 2 303 3 dor Patio Interno 131.91 Disponible ₲ 2,040,000,000
+3 2 304 2 dor Patio Interno 98.59 Vendida
+3 2 305 2 dor Lateral 82.76 Disponible ₲ 1,156,000,000
+3 2 306 2 dor Lateral 95.14 Disponible ₲ 1,326,000,000
+3 2 307 2 dor Lateral 83.65 Disponible ₲ 1,169,600,000
+4 2 401 3 dor Frente 165.77 Vendida
+4 2 402 3 dor Patio Interno y frente 193.45 Vendida
+4 2 403 3 dor Patio Interno 131.91 Disponible ₲ 2,074,000,000
+4 2 404 2 dor Patio Interno 98.59 Vendida
+4 2 405 2 dor Lateral 82.76 Vendida
+4 2 406 2 dor Lateral 95.14 Disponible ₲ 1,360,000,000
+4 2 407 2 dor Lateral 83.65 Disponible ₲ 1,203,600,000
+5 2 501 3 dor Frente 165.77 Disponible ₲ 2,740,400,000
+5 2 502 3 dor Patio Interno y frente 193.45 Vendida
+5 2 503 3 dor Patio Interno 131.91 Disponible ₲ 2,108,000,000
+5 2 504 2 dor Patio Interno 98.59 Vendida
+5 2 505 2 dor Lateral 82.76 Disponible ₲ 1,258,000,000
+5 2 506 2 dor Lateral 95.14 Disponible ₲ 1,394,000,000
+5 2 507 2 dor Lateral 83.65 Disponible ₲ 1,271,600,000
+6 2 601 3 dor Frente 165.77 Vendida
+6 2 602 3 dor Patio Interno y frente 193.45 Disponible ₲ 3,196,000,000
+6 2 603 3 dor Patio Interno 131.91 Disponible ₲ 2,142,000,000
+6 2 604 2 dor Patio Interno 98.59 Vendida
+6 2 605 2 dor Lateral 82.76 Disponible ₲ 1,292,000,000
+6 2 606 2 dor Lateral 95.14 Disponible ₲ 1,376,305,255
+6 2 607 2 dor Lateral 83.65 Vendida
+YKUA SATI

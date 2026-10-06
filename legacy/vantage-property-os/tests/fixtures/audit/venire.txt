@@ -1,0 +1,89 @@
+1 101 2 dor 84.49 77.8 6.69 Esquina/Frente (suroeste) 189,978 $ Disponible
+1 102 1 dor 46.36 42.35 4.01 Frente (suroeste) 106,985 $ Disponible
+1 103 1 dor 46.36 42.35 4.01 Frente (suroeste) 106,985 $ Disponible
+1 104 mono 30.79 30.79 0 Patio interno (norte) 71,200 $ Disponible
+1 105 mono 30.79 30.79 0 Patio interno (norte) 71,200 $ Disponible
+1 106 mono 30.20 30.2 0 Patio interno (norte) 69,835 $ Disponible
+1 107 mono 30.20 30.2 0 Patio interno (norte) 69,835 $ Disponible
+1 108 mono 30.20 30.2 0 Patio interno (norte) 69,835 $ Disponible
+1 109 1 dor 47.92 43.52 4.4 Frente (este) 110,585 $ Disponible
+1 110 1 dor 45.86 41.85 4.01 Frente (este) 105,831 $ Disponible
+1 111 1 dor 45.86 41.85 4.01 Frente (este) 105,831 $ Disponible
+2 201 2 dor 84.49 77.8 6.69 Esquina/Frente (suroeste) 192,977 $ Disponible
+2 202 1 dor 46.36 42.35 4.01 Frente (suroeste) 108,082 $ Disponible
+2 203 1 dor 46.36 42.35 4.01 Frente (suroeste) 108,082 $ Disponible
+2 204 mono 30.79 30.79 0 Patio interno (norte) 72,293 $ Disponible
+2 205 mono 30.79 30.79 0 Patio interno (norte) 72,293 $ Disponible
+2 206 mono 30.20 30.2 0 Patio interno (norte) 70,907 $ Disponible
+2 207 mono 30.20 30.2 0 Patio interno (norte) 70,907 $ Disponible
+2 208 mono 30.20 30.2 0 Patio interno (norte) 70,907 $ Disponible
+2 209 1 dor 47.92 43.52 4.4 Frente (este) 112,513 $ Disponible
+2 210 1 dor 45.86 41.85 4.01 Frente (este) 107,676 $ Disponible
+2 211 1 dor 45.86 41.85 4.01 Frente (este) 107,676 $ Disponible
+3 301 2 dor 84.49 77.8 6.69 Esquina/Frente (suroeste) 195,977 $ Disponible
+3 302 1 dor 46.36 42.35 4.01 Frente (suroeste) 109,947 $ Disponible
+3 303 1 dor 46.36 42.35 4.01 Frente (suroeste) Vendido
+3 304 mono 30.79 30.79 0 Patio interno (norte) 73,386 $ Disponible
+3 305 mono 30.79 30.79 0 Patio interno (norte) 73,386 $ Disponible
+3 306 mono 30.20 30.2 0 Patio interno (norte) 71,980 $ Disponible
+3 307 mono 30.20 30.2 0 Patio interno (norte) 71,980 $ Disponible
+3 308 mono 30.20 30.2 0 Patio interno (norte) Vendido
+3 309 1 dor 47.92 43.52 4.4 Frente (este) 114,214 $ Disponible
+3 310 1 dor 45.86 41.85 4.01 Frente (este) 109,304 $ Disponible
+3 311 1 dor 45.86 41.85 4.01 Frente (este) 109,304 $ Disponible
+4 401 2 dor 84.49 77.8 6.69 Esquina/Frente (suroeste) 198,976 $ Disponible
+4 402 1 dor 46.36 42.35 4.01 Frente (suroeste) 111,593 $ Disponible
+4 403 1 dor 46.36 42.35 4.01 Frente (suroeste) 111,593 $ Vendido
+4 404 mono 30.79 30.79 0 Patio interno (norte) Vendido -
+4 405 mono 30.79 30.79 0 Patio interno (norte) Vendido -
+4 406 mono 30.20 30.2 0 Patio interno (norte) vendido
+4 407 mono 30.20 30.2 0 Patio interno (norte) Vendido
+4 408 mono 30.20 30.2 0 Patio interno (norte) Vendido
+4 409 1 dor 47.92 43.52 4.4 Frente (este) 115,915 $ Disponible
+4 410 1 dor 45.86 41.85 4.01 Frente (este) 110,932 $ Asignado
+4 411 1 dor 45.86 41.85 4.01 Frente (este) 110,932 $ Disponible
+5 501 2 dor 84.49 77.8 6.69 Esquina/Frente (suroeste) Vendido -
+5 502 1 dor 46.36 42.35 4.01 Frente (suroeste) Vendido -
+5 503 1 dor 46.36 42.35 4.01 Frente (suroeste) Vendido -
+5 504 mono 30.79 30.79 0 Patio interno (norte) Vendido -
+5 505 mono 30.79 30.79 0 Patio interno (norte) Vendido -
+5 506 mono 30.20 30.2 0 Patio interno (norte) Vendido -
+5 507 mono 30.20 30.2 0 Patio interno (norte) Vendido -
+5 508 mono 30.20 30.2 0 Patio interno (norte) Vendido -
+5 509 1 dor 47.92 43.52 4.4 Frente (este) Vendido -
+5 510 1 dor 45.86 41.85 4.01 Frente (este) Vendido -
+5 511 1 dor 45.86 41.85 4.01 Frente (este) Vendido -
+6 601 2 dor 84.49 77.8 6.69 Esquina/Frente (suroeste) 204,976 $ Disponible
+6 602 1 dor 46.36 42.35 4.01 Frente (suroeste) Vendido
+6 603 1 dor 46.36 42.35 4.01 Frente (suroeste) Vendido
+6 604 mono 30.79 30.79 0 Patio interno (norte) Vendido
+6 605 mono 30.79 30.79 0 Patio interno (norte) 76,665 $ Disponible
+6 606 mono 30.20 30.2 0 Patio interno (norte) 75,196 $ Disponible
+6 607 mono 30.20 30.2 0 Patio interno (norte) 75,196 $ Disponible
+6 608 mono 30.20 30.2 0 Patio interno (norte) Vendido
+6 609 1 dor 47.92 43.52 4.4 Frente (este) 119,318 $ Reservado
+6 610 1 dor 45.86 41.85 4.01 Frente (este) 114,189 $ Disponible
+6 611 1 dor 45.86 41.85 4.01 Frente (este) 114,189 $ Disponible
+7 701 2 dor 84.49 77.8 6.69 Esquina/Frente (suroeste) 210,975 $ Disponible
+7 702 1 dor 46.36 42.35 4.01 Frente (suroeste) 116,531 $ Disponible
+7 703 1 dor 46.36 42.35 4.01 Frente (suroeste) Vendido
+7 704 mono 30.79 30.79 0 Patio interno (norte) 77,758 $ Disponible
+7 705 mono 30.79 30.79 0 Patio interno (norte) 77,758 $ Disponible
+7 706 mono 30.20 30.2 0 Patio interno (norte) 76,268 $ Disponible
+7 707 mono 30.20 30.2 0 Patio interno (norte) 76,268 $ Disponible
+7 708 mono 30.20 30.2 0 Patio interno (norte) 76,483 $ Disponible
+7 709 1 dor 47.92 43.52 4.4 Frente (este) 121,360 $ Disponible
+7 710 1 dor 45.86 41.85 4.01 Frente (este) 116,142 $ Disponible
+7 711 1 dor 45.86 41.85 4.01 Frente (este) 116,142 $ Disponible
+8 801 2 dor 84.49 77.8 6.69 Esquina/Frente (suroeste) Vendido
+8 802 1 dor 46.36 42.35 4.01 Frente (suroeste) Vendido
+8 803 1 dor 46.36 42.35 4.01 Frente (suroeste) Vendido
+8 804 mono 30.79 30.79 0 Patio interno (norte) Vendido
+8 805 mono 30.79 30.79 0 Patio interno (norte) 79,070 $ Disponible
+8 806 mono 30.20 30.2 0 Patio interno (norte) Vendido
+8 807 mono 30.20 30.2 0 Patio interno (norte) Vendido
+8 808 mono 30.20 30.2 0 Patio interno (norte) 77,555 $ Disponible
+8 809 1 dor 47.92 43.52 4.4 Frente (este) 123,061 $ Disponible
+8 810 1 dor 45.86 41.85 4.01 Frente (este) 117,771 $ Disponible
+8 811 1 dor 45.86 41.85 4.01 Frente (este) 117,771 $ Disponible
+NIVEL DPTO. TIPO total cubierta balcon orientación Precio Usd Estado

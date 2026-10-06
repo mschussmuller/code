@@ -1,0 +1,73 @@
+Edificio Piso Unidad Vista Dormitorios Cochera M2 
+Cocheras
+M2 
+deptos M2 Patio M2 Comunes
+M2 
+TOTALES
+M2 
+POND
+Precio POZO
+TORRE C 7 C 71 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 78,510
+TORRE C 7 C 72 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 77,581
+TORRE D 7 D 71 Frente 2 + dormitorios X 2 25 59.1 - 12.6 71.7 71.7 93,088
+TORRE D 7 D 72 Atrás 2 + dormitorios X 2 25 59.1 - 12.6 71.7 71.7 91,948
+TORRE C 6 C 61 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 78,200
+TORRE C 6 C 62 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 77,271
+TORRE C 6 C 63 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 77,271
+TORRE C 6 C 64 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 78,200
+TORRE D 6 D 61 Frente 2 + dormitorios X 2 25 59.1 - 12.6 71.7 71.7 91,568
+TORRE D 6 D 62 Atrás 2 + dormitorios X 2 25 59.1 - 12.6 71.7 71.7 92,708
+TORRE D 6 D 63 Atrás 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE D 6 D 64 Medio Monoambiente X 1 12.5 35.0 - 7.5 42.5 42.5 Vendido
+TORRE D 6 D 65 Frente 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE C 5 C 51 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 77,271
+TORRE C 5 C 52 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 76,342
+TORRE C 5 C 53 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 76,342
+TORRE C 5 C 54 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 77,271
+TORRE D 5 D 51 Frente 2 + dormitorios X 2 25 59.1 - 12.6 71.7 71.7 Vendido
+TORRE D 5 D 52 Atrás 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 86,299
+TORRE D 5 D 53 Atrás 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE D 5 D 54 Medio Monoambiente X 0 0 35.0 - 7.5 42.5 42.5 Vendido
+TORRE D 5 D 55 Frente 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE C 4 C 41 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 76,342
+TORRE C 4 C 42 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 75,412
+TORRE C 4 C 43 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 75,412
+TORRE C 4 C 44 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 76,342
+TORRE D 4 D 41 Frente 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 Vendido
+TORRE D 4 D 42 Atrás 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 85,224
+TORRE D 4 D 43 Atrás 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE D 4 D 44 Medio Monoambiente X 0 0 35.0 - 7.5 42.5 42.5 Vendido
+TORRE D 4 D 45 Frente 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE C 3 C 31 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 75,412
+TORRE C 3 C 32 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 74,483
+TORRE C 3 C 33 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 Vendido
+TORRE C 3 C 34 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 Vendido
+TORRE D 3 D 31 Frente 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 83,074
+TORRE D 3 D 32 Atrás 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 84,149
+TORRE D 3 D 33 Atrás 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE D 3 D 34 Medio Monoambiente X 0 0 35.0 - 7.5 42.5 42.5 Vendido
+TORRE D 3 D 35 Frente 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE C 2 C 21 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 74,793
+TORRE C 2 C 22 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 73,864
+TORRE C 2 C 23 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 73,864
+TORRE C 2 C 24 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 74,793
+TORRE D 2 D 21 Frente 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 Vendido
+TORRE D 2 D 22 Atrás 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 83,433
+TORRE D 2 D 23 Atrás 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE D 2 D 24 Medio Monoambiente X 1 12.5 35.0 - 7.5 42.5 42.5 Vendido
+TORRE D 2 D 25 Frente 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE C 1 C 11 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 74,173
+TORRE C 1 C 12 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 73,244
+TORRE C 1 C 13 Atrás 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 73,244
+TORRE C 1 C 14 Frente 2 dormitorios X 1 12.5 51.1 - 10.9 61.9 61.9 74,173
+TORRE D 1 D 11 Frente 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 Vendido
+TORRE D 1 D 12 Atrás 2 + dormitorios X 1 12.5 59.1 - 12.6 71.7 71.7 81,641
+TORRE D 1 D 13 Atrás 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE D 1 D 14 Medio Monoambiente X 0 12.5 35.0 - 7.5 42.5 42.5 Vendido
+TORRE D 1 D 15 Frente 1 dormitorio X 1 12.5 39.7 - 8.5 48.2 48.2 Vendido
+TORRE C 0 C 01 Frente 2 dormitorios X 1 - 51.1 39.6 10.9 101.5 71.8 Vendido
+TORRE C 0 C 03 Atrás 2 dormitorios X 1 - 51.1 29.3 10.9 91.2 69.3 Vendido
+TORRE C 0 C 04 Frente 2 dormitorios X 1 - 51.1 39.6 10.9 101.5 71.8 Vendido
+TORRE D 0 D 01 Frente 2 + dormitorios X 1 - 59.1 40.0 12.6 111.7 81.7 Vendido
+TORRE D 0 D 03 Atrás 2 + dormitorios X 1 - 59.1 34.9 12.6 106.5 80.4 Vendido
+TORRE D 0 D 04 Frente 2 + dormitorios X 1 - 59.1 32.8 12.6 104.5 79.9 Vendido

@@ -1,0 +1,65 @@
+Nivel dpto. Tipo Estado
+total baños precio de lista
+1 101 3 dor 135 3 $ 250,000.00 Asignado
+1 102 2 dor 87.5 2 Vendida
+1 103 2 dor 78.55 2 $ - Vendida
+1 104 1 dor 41 1 $ - Vendida
+1 105 2 dor 78 2 $ - Vendida
+1 106 2 dor 87.5 2 Vendida
+1 107 1 dor 46 1 $ - Vendida
+1 108 1 dor 46.5 1 Vendida
+2 201 3 dor 135 3 Vendida
+2 202 2 dor 87.5 2 vendida
+2 203 2 dor 78.55 2 $ - Vendida
+2 204 1 dor 41 1 $ - Vendida
+2 205 2 dor 78 2 $ - Vendida
+2 206 2 dor 87.5 2 Vendida
+2 207 1 dor 46 1 $ - Vendida
+2 208 1 dor 46.5 1 $ - Vendida
+3 301 3 dor 135 3 $ - Vendida
+3 302 2 dor 87.5 2 $ - Vendida
+3 303 2 dor 78.55 2 Vendida
+3 304 1 dor 41 1 $ - Vendida
+3 305 2 dor 78 2 $ 145,000.00 Disponible
+3 306 2 dor 87.5 2 Vendida
+3 307 1 dor 46 1 $ - Vendida
+3 308 1 dor 46.5 1 $ - Vendida
+4 401 3 dor 135 3 $ - Vendida
+4 402 2 dor 87.5 2 $ - Vendida
+4 403 2 dor 78.55 2 $ 147,000.00 Disponible
+4 404 1 dor 41 1 $ - Vendida
+4 405 2 dor 78 2 $ - Vendida
+4 406 2 dor 87.5 2 $ - Vendida
+4 407 1 dor 46 1 $ - Vendida
+4 408 1 dor 46.5 1 $ - Vendida
+5 501 3 dor 135 3 Vendida
+5 502 2 dor 87.5 2 $ - Vendida
+5 503 2 dor 78.55 2 Vendida
+5 504 1 dor 41 1 $ - Vendida
+5 505 2 dor 78 2 Vendida
+5 506 2 dor 87.5 2 $ - Vendida
+5 507 1 dor 46 1 $ - Vendida
+5 508 1 dor 46.5 1 $ - Vendida
+6 601 3 dor 135 3 $ - Vendida
+6 602 2 dor 87.5 2 $ - Vendida
+6 603 2 dor 78.55 2 Vendida
+6 604 1 dor 41 1 Vendida
+6 605 2 dor 78 2 Vendida
+6 606 2 dor 87.5 2 $ - Vendida
+6 607 1 dor 46 1 $ - Vendida
+6 608 1 dor 46.5 1 $ - Vendida
+7 701 3 dor 135 3 $ - Vendida
+7 702 2 dor 87.5 2 Vendida
+7 703 2 dor 78.55 2 Vendida
+7 704 1 dor 41 1 $ - Vendida
+7 705 2 dor 78 2 $ 151,000.00 Asignado
+7 706 2 dor 87.5 2 $ - Vendida
+7 707 1 dor 46 1 $ - Vendida
+7 708 1 dor 46.5 1 $ - Vendida
+$ 13,000
+$ 15,000 VENDIDO
+$ 17,000 Asignado 
+Cocheras Techadas 
+Cocheras más Baulera
+Area propia 20-80
+Cocheras Semi cubiertas

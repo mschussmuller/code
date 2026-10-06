@@ -1,0 +1,52 @@
+Total a construir: 1.800,2 m2
+Edificio Unidad Vista Dormitorios Cochera M2 Cocheras M2 deptos M2 Patio M2 Comunes Precio Pozo
+TORRE A A 61 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 Vendido
+TORRE A A 63 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE C C 61 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 Vendido
+TORRE C C 63 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 51 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 Vendido
+TORRE A A 52 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 53 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 125,383
+TORRE A A 54 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 125,383
+TORRE C C 51 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 153,775
+TORRE C C 52 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE C C 53 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE C C 54 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 41 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 Vendido
+TORRE A A 42 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 43 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 124,609
+TORRE A A 44 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 124,609
+TORRE C C 41 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 Vendido
+TORRE C C 42 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 125,383
+TORRE C C 43 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE C C 44 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 31 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 153,325
+TORRE A A 32 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 33 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 123,836
+TORRE A A 34 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE C C 31 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 Vendido
+TORRE C C 32 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 124,609
+TORRE C C 33 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE C C 34 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 21 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 152,426
+TORRE A A 22 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 23 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 123,062
+TORRE A A 24 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE C C 21 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 Vendido
+TORRE C C 22 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 123,836
+TORRE C C 23 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 123,062
+TORRE C C 24 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 123,062
+TORRE A A 11 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 151,527
+TORRE A A 12 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 Vendido
+TORRE A A 13 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 122,289
+TORRE A A 14 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 122,289
+TORRE C C 11 Frente 3 dormitorios X 1 12.5 71.4 - 18.5 150,179
+TORRE C C 12 Frente 2 dormitorios X 1 12.5 61.5 - 15.9 123,062
+TORRE C C 13 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 122,289
+TORRE C C 14 Atrás 2 dormitorios X 1 12.5 61.5 - 15.9 122,289
+TORRE A A 01 Frente 3 dormitorios X 2 25.0 71.4 70.5 18.5 Vendido
+TORRE A A 03 Atrás 2 dormitorios X 1 12.5 61.5 28.8 15.9 Vendido
+TORRE C C 01 Frente 3 dormitorios X 2 25.0 71.4 34.7 18.5 Vendido
+TORRE C C 03 Atrás 2 dormitorios X 2 25.0 61.5 36.8 15.9 Vendido
+Realiza Inversiones SA 
+Cantidad de unidades: 48
