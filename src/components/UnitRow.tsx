@@ -21,7 +21,7 @@ export function UnitRow({ unit, showProject = true, onEdit }: { unit: Unit; show
           {unit.code} <span className="font-semibold text-ink">· {unit.type}</span>
         </p>
         <p className="text-xs text-muted">
-          Piso {unit.floor || "—"} · {m2(unit.total_m2)} · {parking(unit.parking)}
+          {!unit.floor ? "" : /piso|casa|pb|planta/i.test(unit.floor) ? `${unit.floor} · ` : `Piso ${unit.floor} · `}{m2(unit.total_m2)} · {parking(unit.parking)}
           {showProject && unit.location ? ` · ${unit.location}` : ""}
           {showProject && unit.delivery ? ` · Entrega: ${unit.delivery}` : ""}
         </p>

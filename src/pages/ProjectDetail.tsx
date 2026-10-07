@@ -13,6 +13,8 @@ import type { Project, Unit } from "../../shared/types";
 
 type Audit = { reviewedAt: string; status: string; notes: string[]; pending: string[]; sources: { label: string; url: string }[] };
 type Brochure = { building: string; amenities: string[]; finishes: string[] };
+type GalleryItem = { src: string; title: string };
+type DocLink = { label: string; url: string };
 
 export function ProjectDetail() {
   const { id } = useParams();
@@ -22,12 +24,13 @@ export function ProjectDetail() {
   const [bedrooms, setBedrooms] = useState("");
   const [editingProject, setEditingProject] = useState(false);
   const [editingUnit, setEditingUnit] = useState<Unit | "new" | null>(null);
+  const [lightbox, setLightbox] = useState<number | null>(null);
 
   const units = useMemo(() => (data?.units ?? []).filter((u) => (status === "todas" || u.status === status) && (!bedrooms || String(Math.min(u.bedrooms, 3)) === bedrooms)), [data, status, bedrooms]);
   if (loading && !data) return <Loading />;
   if (!data) return <ErrorBox message={error} />;
   const p = data.project;
-  const extra = parseJson<{ inventoryAudit?: Audit; brochureDetails?: Brochure; consultationPolicy?: string }>(p.extra, {});
+  const extra = parseJson<{ inventoryAudit?: Audit; brochureDetails?: Brochure; consultationPolicy?: string; gallery?: GalleryItem[]; documents?: DocLink[] }>(p.extra, {});
   const links = [
     ["Brochure", p.brochure_url], ["Lista de precios", p.price_list_url], ["Planos", p.plans_url], ["Renders y fotos", p.media_url],
     ["Videos", p.video_url], ["Carpeta completa", p.drive_url],
@@ -40,7 +43,7 @@ export function ProjectDetail() {
       <Link to="/inventario" className="mb-3 inline-block text-sm font-semibold text-muted hover:text-navy">← Inventario</Link>
       <div className="card overflow-hidden">
         <div className="relative min-h-44 bg-navy p-6 text-white" style={{ background: `linear-gradient(135deg, ${p.color ?? "#0b1f3a"}, #0b1f3a)` }}>
-          {p.image_url && <img src={p.image_url} alt="" className="absolute inset-0 h-full w-full object-cover opacity-40" />}
+          {p.image_url && <><img src={p.image_url} alt="" className="absolute inset-0 h-full w-full object-cover" /><div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/60 to-navy/10" /></>}
           <div className="relative">
             <p className="eyebrow">{p.developer_name}</p>
             <h1 className="mt-1 text-3xl font-extrabold">{p.name}</h1>
@@ -69,6 +72,40 @@ export function ProjectDetail() {
           </div>
         </div>
       </div>
+
+      {(extra.gallery?.length || extra.documents?.length) ? (
+        <div className="mt-4 grid gap-4 lg:grid-cols-3">
+          {extra.gallery?.length ? (
+            <Section title={`Galería (${extra.gallery.length})`} className="lg:col-span-2">
+              <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+                {extra.gallery.map((g, i) => (
+                  <button key={g.src} onClick={() => setLightbox(i)} className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-cream">
+                    <img src={g.src} alt={g.title} loading="lazy" className="h-full w-full object-cover transition group-hover:scale-105" />
+                    <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/80 to-transparent p-1.5 text-left text-[11px] font-semibold text-white">{g.title}</span>
+                  </button>
+                ))}
+              </div>
+            </Section>
+          ) : null}
+          {extra.documents?.length ? (
+            <Section title="Documentos">
+              <div className="space-y-1">
+                {extra.documents.map((d) => <a key={d.url} href={d.url} target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-lg p-2 text-sm hover:bg-cream"><Icon name="file" size={15} className="shrink-0 text-gold" /> {d.label}</a>)}
+              </div>
+            </Section>
+          ) : null}
+        </div>
+      ) : null}
+      {lightbox !== null && extra.gallery && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-navy/90 p-4" onClick={() => setLightbox(null)}>
+          <button className="absolute left-2 top-1/2 rounded-full bg-white/10 px-3 py-2 text-2xl text-white" onClick={(e) => { e.stopPropagation(); setLightbox((lightbox + extra.gallery!.length - 1) % extra.gallery!.length); }}>‹</button>
+          <figure className="max-h-full max-w-5xl" onClick={(e) => e.stopPropagation()}>
+            <img src={extra.gallery[lightbox].src} alt="" className="max-h-[85vh] rounded-lg" />
+            <figcaption className="mt-2 text-center text-sm text-white">{extra.gallery[lightbox].title} · {lightbox + 1}/{extra.gallery.length}</figcaption>
+          </figure>
+          <button className="absolute right-2 top-1/2 rounded-full bg-white/10 px-3 py-2 text-2xl text-white" onClick={(e) => { e.stopPropagation(); setLightbox((lightbox + 1) % extra.gallery!.length); }}>›</button>
+        </div>
+      )}
 
       {(extra.inventoryAudit || extra.brochureDetails) && (
         <div className="mt-4 grid gap-4 md:grid-cols-2">

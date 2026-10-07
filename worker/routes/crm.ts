@@ -186,7 +186,7 @@ export const proposalRoutes = new Hono<AppEnv>()
     if (!isManager(user.role) && proposal.user_id !== user.id) fail(403, "Propuesta de otro vendedor");
     const ids = (JSON.parse(String(proposal.options)) as { unitId: string }[]).map((o) => o.unitId);
     const { results: units } = await c.env.DB.prepare(
-      `SELECT u.*, p.name AS project_name, p.location, p.stage, p.delivery, p.image_url, p.color, p.brochure_url, p.map_query, p.plans_url, d.name AS developer_name
+      `SELECT u.*, p.name AS project_name, p.location, p.stage, p.delivery, p.image_url, p.color, p.brochure_url, p.map_query, p.plans_url, json_extract(p.extra, '$.gallery') AS gallery, d.name AS developer_name
        FROM units u JOIN projects p ON p.id = u.project_id JOIN developers d ON d.id = p.developer_id WHERE u.id IN (${ids.map(() => "?").join(",")})`,
     ).bind(...ids).all();
     return c.json({ proposal, units });

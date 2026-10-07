@@ -6,7 +6,7 @@ import { date, m2, parseJson, pyg, usd, whatsappLink } from "../format";
 import { calculateQuoteOption } from "../../shared/quote";
 import type { Proposal, ProposalOption, ProposalSettings, Unit } from "../../shared/types";
 
-type PUnit = Unit & { image_url?: string | null; color?: string | null; brochure_url?: string | null; map_query?: string | null; plans_url?: string | null };
+type PUnit = Unit & { gallery?: string | null; image_url?: string | null; color?: string | null; brochure_url?: string | null; map_query?: string | null; plans_url?: string | null };
 
 /** Los enlaces de la propuesta se comparten con clientes: siempre absolutos. */
 const absolute = (url: string | null | undefined) => (!url ? null : url.startsWith("/") ? `${window.location.origin}${url}` : url);
@@ -80,6 +80,14 @@ export function ProposalView() {
                 </div>
               </section>
 
+              {(() => {
+                const pics = parseJson<{ src: string; title: string }[]>(u.gallery, []).slice(0, 3);
+                return pics.length ? (
+                  <div className="mx-8 mt-2 grid grid-cols-3 gap-2">
+                    {pics.map((g) => <img key={g.src} src={g.src} alt={g.title} className="h-24 w-full rounded-xl object-cover print:h-20" />)}
+                  </div>
+                ) : null;
+              })()}
               <div className="grid gap-6 px-8 py-6 sm:grid-cols-[1fr_1.15fr] print:grid-cols-[1fr_1.15fr]">
                 <section>
                   <p className="eyebrow mb-2">La unidad</p>
