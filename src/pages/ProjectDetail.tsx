@@ -6,6 +6,7 @@ import { Badge, Empty, ErrorBox, Field, Loading, Modal, Section } from "../compo
 import { SelectionBar, UnitRow } from "../components/UnitRow";
 import { Icon } from "../components/Icon";
 import { date, parseJson } from "../format";
+import { resizeImage } from "../image";
 import { Freshness } from "./Inventory";
 import { UNIT_STATUS } from "../../shared/roles";
 import type { Project, Unit } from "../../shared/types";
@@ -46,7 +47,12 @@ export function ProjectDetail() {
             <p className="mt-1 flex items-center gap-1 text-white/80"><Icon name="map" size={15} /> {p.location}</p>
             <div className="mt-3 flex flex-wrap gap-2"><Badge color="gold">{p.stage}</Badge><Badge color={p.confidence === "Confirmado" ? "green" : "amber"}>{p.confidence}</Badge><Freshness updated={p.updated_at} /></div>
           </div>
-          {perms.editInventory && <button className="btn-ghost absolute right-4 top-4" onClick={() => setEditingProject(true)}><Icon name="edit" size={15} /> Editar</button>}
+          {perms.editInventory && (
+            <div className="absolute right-4 top-4 flex gap-2">
+              {!p.image_url && <button className="btn-gold" onClick={() => setEditingProject(true)}>📷 Agregar fachada</button>}
+              <button className="btn-ghost" onClick={() => setEditingProject(true)}><Icon name="edit" size={15} /> Editar</button>
+            </div>
+          )}
         </div>
         <div className="grid gap-4 p-5 md:grid-cols-3">
           <div className="md:col-span-2">
@@ -114,7 +120,16 @@ function ProjectEditor({ project, onClose, onSaved }: { project: Project; onClos
     parking_price_usd: project.parking_price_usd?.toString() ?? "", source_label: project.source_label ?? "",
   });
   const [error, setError] = useState<string | null>(null);
+  const [uploading, setUploading] = useState(false);
   const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => setForm({ ...form, [k]: e.target.value });
+  async function upload(file: File) {
+    setUploading(true);
+    setError(null);
+    try {
+      const { image_url } = await api<{ image_url: string }>(`/inventory/projects/${project.id}/image`, { body: { dataUrl: await resizeImage(file) } });
+      setForm((f) => ({ ...f, image_url }));
+    } catch (e) { setError((e as Error).message); } finally { setUploading(false); }
+  }
   async function save() {
     try {
       await api(`/inventory/projects/${project.id}`, { method: "PATCH", body: { ...form, parking_price_usd: form.parking_price_usd ? Number(form.parking_price_usd) : null } });
@@ -137,7 +152,17 @@ function ProjectEditor({ project, onClose, onSaved }: { project: Project; onClos
         <Field label="Planos (enlace)"><input className="input" value={form.plans_url} onChange={set("plans_url")} /></Field>
         <Field label="Fotos y renders (enlace)"><input className="input" value={form.media_url} onChange={set("media_url")} /></Field>
         <Field label="Carpeta Drive"><input className="input" value={form.drive_url} onChange={set("drive_url")} /></Field>
-        <Field label="Imagen de portada (URL)"><input className="input" value={form.image_url} onChange={set("image_url")} /></Field>
+        <div className="sm:col-span-2">
+          <span className="label">Foto de fachada (aparece en las propuestas)</span>
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="h-20 w-32 overflow-hidden rounded-lg bg-cream">{form.image_url && <img src={form.image_url} alt="" className="h-full w-full object-cover" />}</div>
+            <label className="btn-ghost cursor-pointer">
+              {uploading ? "Subiendo…" : "📷 Subir foto"}
+              <input type="file" accept="image/*" className="hidden" disabled={uploading} onChange={(e) => e.target.files?.[0] && upload(e.target.files[0])} />
+            </label>
+            <input className="input min-w-0 flex-1" value={form.image_url} onChange={set("image_url")} placeholder="…o pegá un enlace de Google Drive a la imagen" />
+          </div>
+        </div>
         <Field label="Precio cochera adicional (USD)"><input className="input" type="number" value={form.parking_price_usd} onChange={set("parking_price_usd")} /></Field>
       </div>
       <ErrorBox message={error} />

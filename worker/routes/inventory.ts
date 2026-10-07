@@ -10,6 +10,14 @@ const PROJECT_FIELDS = ["name", "location", "stage", "delivery", "confidence", "
 const UNIT_FIELDS = ["code", "floor", "type", "bedrooms", "own_m2", "balcony_m2", "total_m2", "currency", "price", "parking", "status",
   "down_payment", "monthly_payment", "balance_on_delivery", "features"] as const;
 const TRACKED = ["price", "status", "currency"];
+const MAX_IMAGE_BYTES = 1_500_000;
+
+/** Un enlace de Google Drive ("/file/d/ID/view" o "open?id=ID") se convierte en imagen directa. */
+export function directImageUrl(url: unknown): unknown {
+  if (typeof url !== "string") return url;
+  const id = url.match(/drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?(?:export=\w+&)?id=)([\w-]{20,})/)?.[1];
+  return id ? `https://lh3.googleusercontent.com/d/${id}=w1600` : url;
+}
 
 export const inventoryRoutes = new Hono<AppEnv>()
   .get("/projects", async (c) => {
@@ -33,6 +41,7 @@ export const inventoryRoutes = new Hono<AppEnv>()
   .patch("/projects/:id", requireRole(canEditInventory), async (c) => {
     const id = c.req.param("id");
     const fields = pick(await body(c), PROJECT_FIELDS);
+    if ("image_url" in fields) fields.image_url = directImageUrl(fields.image_url);
     fields.updated_at = nowIso().slice(0, 10);
     await updateRow(c.env.DB, "projects", id, fields);
     await audit(c.env.DB, c.get("user").id, "UPDATED", "project", id, fields);
@@ -51,6 +60,24 @@ export const inventoryRoutes = new Hono<AppEnv>()
     ).bind(id, devId, name, String(data.location ?? ""), String(data.stage ?? "Pozo"), String(data.delivery ?? "Requiere confirmación"), String(data.summary ?? ""), nowIso().slice(0, 10)).run();
     await audit(c.env.DB, c.get("user").id, "CREATED", "project", id, { name, developerName });
     return c.json({ id }, 201);
+  })
+  // Foto de fachada subida desde el celular/PC (la app la achica antes de enviarla).
+  .post("/projects/:id/image", requireRole(canEditInventory), async (c) => {
+    const id = c.req.param("id");
+    if (!(await c.env.DB.prepare("SELECT 1 FROM projects WHERE id = ?").bind(id).first())) fail(404, "Proyecto no encontrado");
+    const data = await body(c);
+    const match = String(data.dataUrl ?? "").match(/^data:(image\/(?:jpeg|png|webp));base64,([A-Za-z0-9+/=]+)$/);
+    if (!match) fail(400, "Imagen inválida");
+    const size = Math.floor((match[2].length * 3) / 4);
+    if (size > MAX_IMAGE_BYTES) fail(400, "La imagen es demasiado grande");
+    const mediaId = newId();
+    const user = c.get("user");
+    await c.env.DB.batch([
+      c.env.DB.prepare("INSERT INTO media (id, mime, data, size_bytes, created_at, created_by) VALUES (?, ?, ?, ?, ?, ?)").bind(mediaId, match[1], match[2], size, nowIso(), user.id),
+      c.env.DB.prepare("UPDATE projects SET image_url = ?, updated_at = ? WHERE id = ?").bind(`/api/media/${mediaId}`, nowIso().slice(0, 10), id),
+    ]);
+    await audit(c.env.DB, user.id, "IMAGE_UPLOADED", "project", id, { mediaId, size });
+    return c.json({ image_url: `/api/media/${mediaId}` }, 201);
   })
   // Buscador de unidades: filtra por presupuesto, dormitorios, zona, etapa, desarrolladora.
   .get("/units", async (c) => {

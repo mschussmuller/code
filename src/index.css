@@ -35,6 +35,7 @@ button:disabled { cursor: not-allowed; opacity: .55; }
 }
 
 @media print {
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .no-print { display: none !important; }
   body, html { background: white; }
   .print-page { break-after: page; }

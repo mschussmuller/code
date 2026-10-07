@@ -17,7 +17,14 @@ app.onError((err, c) => {
 });
 
 app.route("/auth", authRoutes);
-app.use("*", async (c, next) => (c.req.path.startsWith("/api/auth/") ? next() : requireUser(c, next)));
+// Imágenes públicas (fachadas): se muestran en propuestas que se comparten con clientes.
+app.get("/media/:id", async (c) => {
+  const row = await c.env.DB.prepare("SELECT mime, data FROM media WHERE id = ?").bind(c.req.param("id")).first<{ mime: string; data: string }>();
+  if (!row) return c.json({ error: "No encontrado" }, 404);
+  const bytes = Uint8Array.from(atob(row.data), (ch) => ch.charCodeAt(0));
+  return c.body(bytes, 200, { "Content-Type": row.mime, "Cache-Control": "public, max-age=31536000, immutable" });
+});
+app.use("*", async (c, next) => (c.req.path.startsWith("/api/auth/") || c.req.path.startsWith("/api/media/") ? next() : requireUser(c, next)));
 app.route("/users", userRoutes);
 app.route("/inventory", inventoryRoutes);
 app.route("/clients", clientRoutes);
