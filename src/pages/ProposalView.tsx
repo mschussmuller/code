@@ -1,8 +1,10 @@
+import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { useApi } from "../api";
+import { api, useApi } from "../api";
+import { buildProposalPdf, downloadPdf, sharePdf, type ProposalSheet } from "../proposalPdf";
 import { Icon } from "../components/Icon";
 import { ErrorBox, Loading } from "../components/ui";
-import { date, m2, parseJson, pyg, usd, whatsappLink } from "../format";
+import { date, m2, parseJson, pyg, usd } from "../format";
 import { calculateQuoteOption } from "../../shared/quote";
 import type { Proposal, ProposalOption, ProposalSettings, Unit } from "../../shared/types";
 
@@ -12,41 +14,99 @@ type PUnit = Unit & { gallery?: string | null; image_url?: string | null; color?
 const absolute = (url: string | null | undefined) => (!url ? null : url.startsWith("/") ? `${window.location.origin}${url}` : url);
 const mapsUrl = (u: PUnit) => (u.map_query ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(u.map_query)}` : null);
 
+const deliveryLabel = (d: string) => (/^(entreg|proyecto terminado|terminado|listo)/i.test(d) ? d : `Entrega ${d}`);
+const floorLabel = (f: string) => (/piso|casa|pb|planta/i.test(f) ? f : `Piso ${f}`);
+
 export function ProposalView() {
   const { id } = useParams();
   const { data, error, loading } = useApi<{ proposal: Proposal & { client_phone?: string | null }; units: PUnit[] }>(`/proposals/${id}`);
-  if (loading && !data) return <Loading />;
-  if (!data) return <div className="p-6"><ErrorBox message={error} /></div>;
-  const p = data.proposal;
-  const settings = parseJson<ProposalSettings>(p.settings, { paymentMode: "financiado", fx: 7900, downPercent: 30, term: 30 });
-  const options = parseJson<ProposalOption[]>(p.options, []);
-  const quotes = options
-    .map((o) => ({ o, u: data.units.find((u) => u.id === o.unitId) }))
-    .filter((r): r is { o: ProposalOption; u: PUnit } => Boolean(r.u))
-    .map(({ o, u }) => ({ u, q: calculateQuoteOption(u, u.delivery ?? "", o, settings) }));
+  const [pdf, setPdf] = useState<Blob | null>(null);
+  const [pdfError, setPdfError] = useState(false);
+  const [status, setStatus] = useState<string | null>(null);
 
-  const waText = [
-    `Hola ${p.client_name.split(" ")[0]}! Te comparto las opciones que preparamos en Vantage Real Estate:`,
-    ...quotes.map(({ u, q }, i) => [
-      `\n*Opción ${i + 1}: ${u.project_name} · Unidad ${u.code}*`,
-      `${u.type} · ${m2(u.total_m2)} · ${u.location}`,
-      `Precio: ${usd(q.finalPriceUSD)}`,
-      settings.paymentMode === "financiado" ? `Entrega: ${usd(q.delivery)} + cuotas de ${usd(q.payment)}` : null,
-      q.projectDelivery ? `Entrega del proyecto: ${q.projectDelivery}` : null,
-      absolute(u.brochure_url) ? `Brochure: ${absolute(u.brochure_url)}` : null,
-      mapsUrl(u) ? `Ubicación: ${mapsUrl(u)}` : null,
-    ].filter(Boolean).join("\n")),
-    `\nQuedo atento a tus comentarios. ${p.user_name}`,
-  ].join("\n");
+  const view = useMemo(() => {
+    if (!data) return null;
+    const p = data.proposal;
+    const settings = parseJson<ProposalSettings>(p.settings, { paymentMode: "financiado", fx: 7900, downPercent: 30, term: 30 });
+    const options = parseJson<ProposalOption[]>(p.options, []);
+    const quotes = options
+      .map((o) => ({ o, u: data.units.find((u) => u.id === o.unitId) }))
+      .filter((r): r is { o: ProposalOption; u: PUnit } => Boolean(r.u))
+      .map(({ o, u }) => ({ u, q: calculateQuoteOption(u, u.delivery ?? "", o, settings) }));
+    const sheets: ProposalSheet[] = quotes.map(({ u, q }) => {
+      const toUSD = (v: number) => (u.currency === "USD" ? v : v / settings.fx);
+      const balance = u.balance_on_delivery ? toUSD(u.balance_on_delivery) : 0;
+      const installments = q.usesOfficialPlan && q.payment > 0 ? Math.max(1, Math.round((q.unitPriceUSD - q.delivery - balance) / q.payment)) : settings.term;
+      const parkingLabel = u.parking > 0 ? `${u.parking} incluida${u.parking > 1 ? "s" : ""}` : q.optionalParkingPriceUSD > 0 ? `Opcional · ${usd(q.optionalParkingPriceUSD)}` : u.parking < 0 ? "A confirmar" : "No incluida";
+      const steps = settings.paymentMode === "contado"
+        ? [{ label: "Pago único", hint: "Al confirmar la operación", value: usd(q.finalPriceUSD) }]
+        : [
+            { label: "Entrega inicial", hint: "Al reservar", value: usd(q.delivery) },
+            { label: "Durante obra", hint: `${installments} cuotas${q.usesOfficialPlan ? "" : " estimadas"}`, value: usd(q.payment) },
+            ...(balance > 0 ? [{ label: "Contra entrega", hint: "Saldo final", value: usd(balance) }] : []),
+          ];
+      const links = [
+        absolute(u.brochure_url) && { label: "Ver brochure", url: absolute(u.brochure_url)! },
+        mapsUrl(u) && { label: "Ver ubicación", url: mapsUrl(u)! },
+        absolute(u.plans_url) && { label: "Ver planos", url: absolute(u.plans_url)! },
+      ].filter(Boolean) as { label: string; url: string }[];
+      return {
+        developer: u.developer_name ?? "", stage: u.stage ?? "", project: u.project_name ?? "", location: u.location ?? "",
+        delivery: q.projectDelivery ? deliveryLabel(q.projectDelivery) : "",
+        facts: [["Unidad", `${u.code}${u.floor ? ` · ${floorLabel(u.floor)}` : ""}`], ["Tipología", u.type], ["Superficie", m2(u.total_m2)], ["Cochera", parkingLabel]],
+        priceLabel: q.appliedDiscountPercent || q.optionalParkingPriceUSD ? "Precio final" : "Precio de lista",
+        price: usd(q.finalPriceUSD),
+        priceNote: [
+          q.appliedDiscountPercent > 0 ? `Incluye ${q.appliedDiscountPercent}% de descuento (antes ${usd(q.unitPriceUSD)})` : "",
+          u.currency === "PYG" ? pyg(q.finalPriceUSD * settings.fx) : "",
+        ].filter(Boolean),
+        planTitle: settings.paymentMode === "contado" ? "Forma de pago" : q.usesOfficialPlan ? "Plan oficial de la desarrolladora" : "Plan de pago estimado",
+        steps, links,
+        image: absolute(u.image_url),
+        gallery: parseJson<{ src: string }[]>(u.gallery, []).slice(0, 3).map((g) => absolute(g.src)!),
+        disclaimer: "Precio, disponibilidad y condiciones sujetos a confirmación final con la desarrolladora. Documento informativo, sin validez contractual."
+          + (!q.usesOfficialPlan && settings.paymentMode === "financiado" ? " Las cuotas son estimativas." : "")
+          + (u.currency === "PYG" ? ` Cotización referencial: USD 1 = Gs. ${settings.fx.toLocaleString("es-PY")}.` : ""),
+      };
+    });
+    return { p, settings, quotes, sheets };
+  }, [data]);
+
+  // El PDF se arma apenas se abre la propuesta: compartir tiene que ocurrir en el mismo toque (iPhone/iPad lo exigen).
+  useEffect(() => {
+    if (!view) return;
+    let cancelled = false;
+    buildProposalPdf({
+      clientName: view.p.client_name, date: date(view.p.created_at), note: view.p.note ?? null,
+      advisorName: view.p.user_name ?? "", advisorContact: [view.p.user_phone, view.p.user_email].filter(Boolean).join(" · "), sheets: view.sheets,
+    }).then((b) => !cancelled && setPdf(b)).catch(() => !cancelled && setPdfError(true));
+    return () => { cancelled = true; };
+  }, [view]);
+
+  if (loading && !data) return <Loading />;
+  if (!data || !view) return <div className="p-6"><ErrorBox message={error} /></div>;
+  const { p, settings, quotes } = view;
+  const filename = `Propuesta Vantage - ${p.client_name}.pdf`;
+
+  async function send() {
+    if (!pdf) return;
+    const result = await sharePdf(pdf, filename);
+    if (result === "downloaded") setStatus("Este dispositivo no permite compartir archivos: el PDF se descargó. Adjuntalo en WhatsApp Web.");
+    if (result === "shared" && p.client_id) {
+      await api(`/clients/${p.client_id}/interactions`, { body: { kind: "whatsapp", note: `Propuesta enviada en PDF (${quotes.length} opción${quotes.length === 1 ? "" : "es"})` } }).catch(() => {});
+      setStatus("Propuesta enviada y registrada en el historial del cliente.");
+    }
+  }
 
   return (
     <div className="min-h-screen bg-cream/40 print:bg-white">
       <div className="no-print sticky top-0 z-10 flex flex-wrap items-center justify-between gap-2 border-b border-line bg-white px-4 py-3">
         <Link to={p.client_id ? `/clientes/${p.client_id}` : "/propuestas"} className="text-sm font-semibold text-muted">← Volver</Link>
-        <div className="flex gap-2">
-          <a className="btn-ghost" href={whatsappLink(p.client_phone, waText)} target="_blank" rel="noreferrer"><Icon name="whatsapp" size={16} /> Enviar por WhatsApp</a>
-          <button className="btn-primary" onClick={() => window.print()}><Icon name="print" size={16} /> Imprimir / PDF</button>
+        <div className="flex flex-wrap gap-2">
+          <button className="btn-ghost" disabled={!pdf} onClick={() => pdf && downloadPdf(pdf, filename)}><Icon name="file" size={16} /> Descargar PDF</button>
+          <button className="btn-primary" disabled={!pdf} onClick={send}><Icon name="whatsapp" size={16} /> {pdf ? "Enviar PDF por WhatsApp" : pdfError ? "No se pudo generar el PDF" : "Preparando PDF…"}</button>
         </div>
+        {status && <p className="w-full text-right text-xs font-semibold text-ok">{status}</p>}
       </div>
 
       <div className="mx-auto max-w-4xl space-y-6 py-6 print:max-w-none print:space-y-0 print:py-0">
